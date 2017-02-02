@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.CreationalPatterns.FactoryPattern.Zombies
 {
-    public enum ZombieType
+    public enum ZombieTypes
     {
         Slow,
         Walker,

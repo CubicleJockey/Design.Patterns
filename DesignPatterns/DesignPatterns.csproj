@@ -51,7 +51,7 @@
     <Compile Include="CreationalPatterns\FactoryPattern\Zombies\RunnerZombie.cs" />
     <Compile Include="CreationalPatterns\FactoryPattern\Zombies\SlowZombie.cs" />
     <Compile Include="CreationalPatterns\FactoryPattern\Zombies\WalkerZombie.cs" />
-    <Compile Include="CreationalPatterns\FactoryPattern\Zombies\ZombieType.cs" />
+    <Compile Include="CreationalPatterns\FactoryPattern\Zombies\ZombieTypes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

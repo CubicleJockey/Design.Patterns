@@ -13,20 +13,20 @@ namespace DesignPatterns.CreationalPatterns.FactoryPattern.InterfaceType
         public ZombieFactory()
         {
             random = new Random();
-            MaxZombieId = Enum.GetValues(typeof(ZombieType)).Cast<int>().Max();
+            MaxZombieId = Enum.GetValues(typeof(ZombieTypes)).Cast<int>().Max();
         }
 
-        public IZombie GetZombie(ZombieType type)
+        public IZombie GetZombie(ZombieTypes type)
         {
             switch(type)
             {
-                case ZombieType.Slow:
+                case ZombieTypes.Slow:
                     return new SlowZombie();
-                case ZombieType.Walker:
+                case ZombieTypes.Walker:
                     return new WalkerZombie();
-                case ZombieType.Runner:
+                case ZombieTypes.Runner:
                     return new RunnerZombie();
-                case ZombieType.Alter:
+                case ZombieTypes.Alter:
                     return new AlterZombie();
                 default:
                     return new SlowZombie();
@@ -38,7 +38,7 @@ namespace DesignPatterns.CreationalPatterns.FactoryPattern.InterfaceType
             IList<IZombie> herd = new List<IZombie>();
             for(var i = 0; i < size; i++)
             {
-                herd.Add(GetZombie((ZombieType)random.Next(0, MaxZombieId + 1))); //The +1 was the random was never spitting out an alter.
+                herd.Add(GetZombie((ZombieTypes)random.Next(0, MaxZombieId + 1))); //The +1 was the random was never spitting out an alter.
             }
             return herd;
         }

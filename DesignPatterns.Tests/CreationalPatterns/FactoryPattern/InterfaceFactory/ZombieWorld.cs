@@ -20,7 +20,7 @@ namespace DesignPatterns.Tests.CreationalPatterns.FactoryPattern.InterfaceFactor
         [TestMethod]
         public void GetSlowZombie()
         {
-            var zombie = zFactory.GetZombie(ZombieType.Slow);
+            var zombie = zFactory.GetZombie(ZombieTypes.Slow);
 
             zombie.Should().NotBeNull();
             zombie.Should().BeAssignableTo<IZombie>();
@@ -50,7 +50,7 @@ namespace DesignPatterns.Tests.CreationalPatterns.FactoryPattern.InterfaceFactor
         [TestMethod]
         public void GetWalkerZombie()
         {
-            var zombie = zFactory.GetZombie(ZombieType.Walker);
+            var zombie = zFactory.GetZombie(ZombieTypes.Walker);
 
             zombie.Should().NotBeNull();
             zombie.Should().BeAssignableTo<IZombie>();
@@ -80,7 +80,7 @@ namespace DesignPatterns.Tests.CreationalPatterns.FactoryPattern.InterfaceFactor
         [TestMethod]
         public void GetRunnerZombie()
         {
-            var zombie = zFactory.GetZombie(ZombieType.Runner);
+            var zombie = zFactory.GetZombie(ZombieTypes.Runner);
 
             zombie.Should().NotBeNull();
             zombie.Should().BeAssignableTo<IZombie>();
@@ -110,7 +110,7 @@ namespace DesignPatterns.Tests.CreationalPatterns.FactoryPattern.InterfaceFactor
         [TestMethod]
         public void GetAlterZombie()
         {
-            var zombie = zFactory.GetZombie(ZombieType.Alter);
+            var zombie = zFactory.GetZombie(ZombieTypes.Alter);
 
             zombie.Should().NotBeNull();
             zombie.Should().BeAssignableTo<IZombie>();
