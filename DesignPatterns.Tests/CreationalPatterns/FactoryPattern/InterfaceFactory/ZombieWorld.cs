@@ -5,9 +5,7 @@ using DesignPatterns.CreationalPatterns.FactoryPattern.Zombies;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-using static System.Console;
-
-namespace DesignPatterns.Tests.CreationalPatterns.FactoryPattern.InterfaceType
+namespace DesignPatterns.Tests.CreationalPatterns.FactoryPattern.InterfaceFactory
 {
     [TestClass]
     public class ZombieWorld
@@ -153,7 +151,7 @@ namespace DesignPatterns.Tests.CreationalPatterns.FactoryPattern.InterfaceType
             //Hoping that 20 is enough to get one of each type
             foreach(var zombie in herd)
             {
-                WriteLine(zombie.Name);
+                Console.WriteLine(zombie.Name);
             }
         }
     }
