@@ -39,7 +39,7 @@ namespace DesignPatterns.CreationalPatterns.FactoryPattern.InterfaceType
             IList<IZombie> herd = new List<IZombie>();
             for(var i = 0; i < size; i++)
             {
-                herd.Add(GetZombie((ZombieType)random.Next(0, MaxZombieId)));
+                herd.Add(GetZombie((ZombieType)random.Next(0, MaxZombieId + 1))); //The +1 was the random was never spitting out an alter.
             }
             return herd;
         }

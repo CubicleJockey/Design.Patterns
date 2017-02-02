@@ -29,7 +29,7 @@ namespace DesignPatterns.CreationalPatterns.FactoryPattern.InterfaceType.Zombies
                 return;}
             if(random.Next(1, 2) == 1)
             {
-                damage = (damage + (random.NextDouble()*20)); // damage boost
+                damage = (damage + (random.NextDouble() * 20)); // damage boost
             }
             else
             {
