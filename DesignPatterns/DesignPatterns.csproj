@@ -40,7 +40,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CreationalPatterns\FactoryPattern\InterfaceType\Interfaces\IZombie.cs" />
+    <Compile Include="CreationalPatterns\FactoryPattern\InterfaceType\ZombieFactory.cs" />
+    <Compile Include="CreationalPatterns\FactoryPattern\InterfaceType\Zombies\AlterZombie.cs" />
+    <Compile Include="CreationalPatterns\FactoryPattern\InterfaceType\Zombies\RunnerZombie.cs" />
+    <Compile Include="CreationalPatterns\FactoryPattern\InterfaceType\Zombies\SlowZombie.cs" />
+    <Compile Include="CreationalPatterns\FactoryPattern\InterfaceType\Zombies\WalkerZombie.cs" />
+    <Compile Include="CreationalPatterns\FactoryPattern\InterfaceType\ZombieType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CreationalPatterns\FactoryPattern\InterfaceType\ReadMe.md" />
+    <None Include="CreationalPatterns\FactoryPattern\ReadMe.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CreationalPatterns\FactoryPattern\AbstractType\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
