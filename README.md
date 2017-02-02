@@ -1,5 +1,5 @@
 # Design Patterns
-<br>
+
 >This is a place for me to practice and create simple Design Patterns in C#
 
 DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
