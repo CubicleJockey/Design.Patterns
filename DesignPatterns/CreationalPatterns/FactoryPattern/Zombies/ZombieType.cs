@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.CreationalPatterns.FactoryPattern.InterfaceType
+﻿namespace DesignPatterns.CreationalPatterns.FactoryPattern.Zombies
 {
     public enum ZombieType
     {

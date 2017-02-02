@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using DesignPatterns.CreationalPatterns.FactoryPattern.InterfaceType.Interfaces;
-using DesignPatterns.CreationalPatterns.FactoryPattern.InterfaceType.Zombies;
+using DesignPatterns.CreationalPatterns.FactoryPattern.Zombies;
 
 namespace DesignPatterns.CreationalPatterns.FactoryPattern.InterfaceType
 {

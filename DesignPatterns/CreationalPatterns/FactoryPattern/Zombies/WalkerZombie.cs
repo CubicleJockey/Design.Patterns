@@ -1,17 +1,17 @@
 ﻿using System;
-using DesignPatterns.CreationalPatterns.FactoryPattern.InterfaceType.Interfaces;
 
-namespace DesignPatterns.CreationalPatterns.FactoryPattern.InterfaceType.Zombies
+namespace DesignPatterns.CreationalPatterns.FactoryPattern.Zombies
 {
-    public class RunnerZombie : IZombie
+    public class WalkerZombie : IZombie
     {
         private readonly Random random;
-        public RunnerZombie()
+
+        public WalkerZombie()
         {
             random = new Random();
 
-            Name = "Runner Zombie";
-            Speed = random.Next(6, 12);
+            Name = "Walker Zombie";
+            Speed = random.Next(2, 5);
             Health = (random.NextDouble() * 100);
         }
 
@@ -22,15 +22,20 @@ namespace DesignPatterns.CreationalPatterns.FactoryPattern.InterfaceType.Zombies
         public double Health { get; private set; }
         public void TakeDamage(double damage)
         {
-            if (Math.Abs(Health) <= 0) { return; }
-            if (damage > Health) { Health = 0.0; }
-
-            Health = Health - damage;
+            if(Math.Abs(Health) <= 0) { return; } //Already Dead
+            if(damage > Health)
+            {
+                Health = 0.0;
+            }
+            else
+            {
+                Health = Health - damage; 
+            }
         }
 
         public double DealDamage()
         {
-            return 10;
+            return 7;
         }
 
         #endregion

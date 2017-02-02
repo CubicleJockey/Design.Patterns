@@ -60,7 +60,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="CreationalPatterns\FactoryPattern\InterfaceType\ZombieWorld.cs" />
+    <Compile Include="CreationalPatterns\FactoryPattern\AbstractFactory\ZombieWorld.cs" />
+    <Compile Include="CreationalPatterns\FactoryPattern\InterfaceFactory\ZombieWorld.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -72,9 +73,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="CreationalPatterns\FactoryPattern\AbstractType\" />
-  </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

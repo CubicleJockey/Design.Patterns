@@ -1,4 +1,4 @@
-namespace DesignPatterns.CreationalPatterns.FactoryPattern.InterfaceType.Interfaces
+namespace DesignPatterns.CreationalPatterns.FactoryPattern.Zombies
 {
     /// <summary>
     /// The basic definition of a Zombie

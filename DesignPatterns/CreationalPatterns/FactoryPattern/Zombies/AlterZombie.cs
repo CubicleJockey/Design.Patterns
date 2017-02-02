@@ -1,7 +1,6 @@
 ﻿using System;
-using DesignPatterns.CreationalPatterns.FactoryPattern.InterfaceType.Interfaces;
 
-namespace DesignPatterns.CreationalPatterns.FactoryPattern.InterfaceType.Zombies
+namespace DesignPatterns.CreationalPatterns.FactoryPattern.Zombies
 {
     public class AlterZombie : IZombie
     {
