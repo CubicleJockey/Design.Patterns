@@ -60,8 +60,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="CreationalPatterns\FactoryPattern\AbstractFactory\ZombieWorld.cs" />
-    <Compile Include="CreationalPatterns\FactoryPattern\InterfaceFactory\ZombieWorld.cs" />
+    <Compile Include="Creational\FactoryPattern\AbstractFactory\ZombieWorld.cs" />
+    <Compile Include="Creational\FactoryPattern\InterfaceFactory\ZombieWorld.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

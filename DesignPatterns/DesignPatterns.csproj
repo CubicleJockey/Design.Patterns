@@ -40,22 +40,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CreationalPatterns\FactoryPattern\AbstractFactories\AlterZombieFactory.cs" />
-    <Compile Include="CreationalPatterns\FactoryPattern\AbstractFactories\RunnerZombieFactory.cs" />
-    <Compile Include="CreationalPatterns\FactoryPattern\AbstractFactories\ZombieFactoryBase.cs" />
-    <Compile Include="CreationalPatterns\FactoryPattern\AbstractFactories\SlowZombieFactory.cs" />
-    <Compile Include="CreationalPatterns\FactoryPattern\AbstractFactories\WalkerZombieFactory.cs" />
-    <Compile Include="CreationalPatterns\FactoryPattern\Zombies\IZombie.cs" />
-    <Compile Include="CreationalPatterns\FactoryPattern\InterfaceFactory\ZombieFactory.cs" />
-    <Compile Include="CreationalPatterns\FactoryPattern\Zombies\AlterZombie.cs" />
-    <Compile Include="CreationalPatterns\FactoryPattern\Zombies\RunnerZombie.cs" />
-    <Compile Include="CreationalPatterns\FactoryPattern\Zombies\SlowZombie.cs" />
-    <Compile Include="CreationalPatterns\FactoryPattern\Zombies\WalkerZombie.cs" />
-    <Compile Include="CreationalPatterns\FactoryPattern\Zombies\ZombieTypes.cs" />
+    <Compile Include="Creational\FactoryPattern\AbstractFactories\AlterZombieFactory.cs" />
+    <Compile Include="Creational\FactoryPattern\AbstractFactories\RunnerZombieFactory.cs" />
+    <Compile Include="Creational\FactoryPattern\AbstractFactories\ZombieFactoryBase.cs" />
+    <Compile Include="Creational\FactoryPattern\AbstractFactories\SlowZombieFactory.cs" />
+    <Compile Include="Creational\FactoryPattern\AbstractFactories\WalkerZombieFactory.cs" />
+    <Compile Include="Creational\FactoryPattern\Zombies\IZombie.cs" />
+    <Compile Include="Creational\FactoryPattern\InterfaceFactory\ZombieFactory.cs" />
+    <Compile Include="Creational\FactoryPattern\Zombies\AlterZombie.cs" />
+    <Compile Include="Creational\FactoryPattern\Zombies\RunnerZombie.cs" />
+    <Compile Include="Creational\FactoryPattern\Zombies\SlowZombie.cs" />
+    <Compile Include="Creational\FactoryPattern\Zombies\WalkerZombie.cs" />
+    <Compile Include="Creational\FactoryPattern\Zombies\ZombieTypes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="CreationalPatterns\FactoryPattern\ReadMe.md" />
+    <None Include="Behavioral\ReadMe.md" />
+    <None Include="Creational\FactoryPattern\ReadMe.md" />
+    <None Include="ReadMe.md" />
+    <None Include="Structural\ReadMe.md" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
